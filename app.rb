@@ -7,11 +7,11 @@ class App < Sinatra::Base
   
   post '/team' do
    @Coach = params[:coach]
-   @PointGuard: params[:pg]
-   @ShootingGuard: params[:sg]
-   @SmallForward: params[:sf]
-   @PowerForward: params[:pf]
-   @Center: params[:c]
+   @PointGuard = params[:pg]
+   @ShootingGuard = params[:sg]
+   @SmallForward = params[:sf]
+   @PowerForward = params[:pf]
+   @Center = params[:c]
    erb :team
   end
 
